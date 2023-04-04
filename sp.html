@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game">
+        <header id="bigScreenHeader">Rock, Paper, Scissors!</header>
+        <div class="titleHeader">
+            <button id="newGame" onclick="document.location.reload()">New Game</button>
+            <p id="score">Score</p>
+        </div>
+        
+        <div class="name">
+            <p>Computer</p>
+            <p>You</p>
+        </div>
+        <div class="scoreBoard">
+            <div class="scoreComp">0</div>
+            <div class="scoreYou">0</div>
+        </div>
+        
+    <div id="game-results">
+
+        
+        <h2>Computer Pick:</h2>
+        <h3 id="computer-choice"></h3>
+        <h2 id="result"></h2>
+        <h2>Player Pick: <span id="user-choice"></span></h2>
+
+    </div>
+    <span>
+    <button class="action" ><img id="Rock" src="rock.png"></button>
+    <button class="action" ><img id="Paper" src="paper.png"></button>
+    <button class="action" ><img id="Scissors" src="scissors.png"></button>
+    </span>
+    <button id="back" onclick="window.location.href='index.html';"> Back </button>
+    <script src="script.js" charset="utf-8"></script>
+    </div>
+</body>
+</html>
